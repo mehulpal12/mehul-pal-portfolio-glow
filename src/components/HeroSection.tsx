@@ -21,8 +21,8 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-20 text-center px-6 max-w-4xl mx-auto">
-        <div className="animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+        <div className="opacity-100">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
             Hi, I'm{" "}
             <span className="text-gradient">
               Mehul Pal
@@ -30,15 +30,15 @@ const HeroSection = () => {
           </h1>
         </div>
         
-        <div className="animate-fade-in-up-delay">
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
+        <div className="opacity-100">
+          <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
             20-year-old Full Stack Developer specializing in{" "}
             <span className="text-primary font-semibold">MERN Stack</span> &{" "}
             <span className="text-secondary font-semibold">Next.js</span>
           </p>
         </div>
         
-        <div className="animate-fade-in-up-delay-2 flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+        <div className="opacity-100 flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Button 
             size="lg" 
             className="glow-effect transition-slow hover:scale-105"
@@ -55,7 +55,7 @@ const HeroSection = () => {
         </div>
         
         {/* Social Links */}
-        <div className="animate-fade-in-up-delay-2 flex gap-6 justify-center mb-16">
+        <div className="opacity-100 flex gap-6 justify-center mb-16">
           <a 
             href="#" 
             className="p-3 card-glass rounded-full transition-slow hover:scale-110 glow-effect"
@@ -77,7 +77,7 @@ const HeroSection = () => {
         </div>
         
         {/* Scroll Indicator */}
-        <div className="animate-float">
+        <div className="opacity-100">
           <ChevronDown className="w-8 h-8 mx-auto text-primary opacity-60" />
         </div>
       </div>
